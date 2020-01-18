@@ -1,0 +1,61 @@
+.buttonedit,button {
+		  
+		  margin-top: 20px;
+}
+
+
+
+/*.wrapper
+{
+	height: 660px;
+	width: 1350px;
+
+}*/
+
+.log-box {
+	margin-top: 80px;
+background: grey;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+/*.color {
+	background-color: black;
+}*/
+
+/*.bgimg1 {
+	background-image: url('../images/1.jpeg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height:680px;
+}*/
+					   /*edit php*/
+
+.editc {
+
+	border: 3px solid black;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+.edittop {
+	margin-top: 30px;
+}
+
+
+footer {
+	margin-top: 200px;
+}
+
+
+
+
+
+
+/*--------------------------------------FOR Navbar -------------------------------------------*/
+@media(min-width: 992px) {
+ li,a {
+	padding: 20px;
+ }
+
+}

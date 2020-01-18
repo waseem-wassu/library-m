@@ -1,0 +1,162 @@
+.top_class {
+    margin-right: 10px;
+
+}
+
+.bgimg {
+    background-image: url('../images/3.jpeg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height:680px;
+}
+
+.headerset {
+padding-top:250px;
+box-sizing:border-box;
+}
+
+.headerset h3 {
+
+    font-weight: bold;
+}
+
+.our-service {
+    padding: 100px 0 60px;
+    height:500px;
+}
+
+.rowsetting {
+    margin: 80px 0;
+}
+
+.imgsetting {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.fa-facebook-official {
+   margin-top: 20px;
+}
+
+.fa-whatsapp {
+    margin-top: 20px;
+}
+
+.fa-twitter {
+    margin-top: 20px;
+}
+
+.rowsetting h1 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.our-team {
+    padding: 100px 0 60px;
+    height:700px;
+    width: 100%; }
+
+.our-team h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting {
+    margin-top: 70px !important;
+}
+
+
+
+footer {
+    height: 50px;
+}
+footer h6 {
+   line-height: 50px;
+}
+
+                /*-----------------------media queries------------------------*/
+
+@media(min-width: 992px) {
+ li,a {
+    padding: 20px;
+ }
+
+}
+
+@media(min-width: 768px) and (max-width:991px) {
+
+nav,ul {
+      margin-right: auto;
+}
+
+}
+
+@media(min-width: 575px) and (max-width:767px) {
+    
+    /*ul,li{
+        margin-right:auto;
+    }
+    li,a {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    nav,img {
+        width: 50px;
+        height: 50px;
+    }
+
+    nav,span {
+        font-size: 15px;
+    }*/
+    .our-team {
+    
+    height:1300px;
+
+     } 
+}
+
+
+@media(min-width: 480px) and (max-width:574px) {
+
+.our-service {
+
+    height:860px;
+      }
+
+    .our-team {
+    
+    height:1300px;
+
+     } 
+     footer h6 {
+        font-size: 13px;
+     } 
+
+    .media480 {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:479px) {
+
+    .our-service {
+    height:900px;
+      }
+
+.our-team {
+    
+    height:1300px
+
+     }  
+    footer h6 {
+        font-size: 11px;
+    }
+
+    .media480 {
+        margin-top: 15px;
+    }
+
+}
